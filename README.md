@@ -1,14 +1,27 @@
 # JUMPING-JIVE-Geodetic-Observatory-Wettzell
 
+# Task 5: Dynamic ZABBIX maps
+
+ZABBIX supports maps to show relationships between components monitored or to show locations of components on background images. These images are quite helpful to identify issues. 
+Usually, these maps are static setups showing facilities of companies and so on. Because VLBI sessions include different locations and antennas, it would be valuable to dynamically change the maps. It would be especially interesting for world maps showing the telescopes of the current session and their states. As ZABBIX monitoring sets can completely be changed using the API based on JSON-RPC 2.0, it should be possible to adapt maps or create new maps (see https://www.zabbix.com/documentation/3.2/manual/api). 
+
+What to do? 
+
+A ZABBIX installation should be used to dynamically adapt and change ZABBIX maps with a world map as background to add and delete telescope positions. 
+Single tasks:
+* Install Ubuntu Linux as Windows Wubi installation 
+* Install ZABBIX on Linux 
+* Understand ZABBIX 
+* Understand the ZABBIX API 
+* Write a program or script to create a new map and to add or delete a telescope position 
 
 
 
-[JUMPING JIVE Website](https://jive.eu/jumping-jive)
 
-<div id="q_title">
+
 
 # JUMPING JIVE
-
+[JUMPING JIVE Website](https://jive.eu/jumping-jive)
 
 JUMPING JIVE: Joining up Users for Maximizing the Profile, the Innovation and Necessary Globalization of JIVE
 
