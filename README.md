@@ -9,13 +9,6 @@
 
 # JUMPING JIVE
 
-</div>
-
-<div id="q_content">
-
-<div class="node">
-
-<div class="content">
 
 JUMPING JIVE: Joining up Users for Maximizing the Profile, the Innovation and Necessary Globalization of JIVE
 
@@ -29,18 +22,10 @@ JIVE <link>is leading the project from its base in Dwingeloo (the Netherlands). 
 
 <span style="font-size: 11pt">Detailed information on the project can be found on the JUMPING JIVE [web](http://jumping.jive.eu/) and</span> [wiki](/jumpingjive/doku.php?id=start "Opens in new window: https://jive.eu/jumpingjive/doku.php?id=start")<span style="font-size: 11pt"> </span> 
 
-<span style="font-size: 11pt"> </span>
 
 ![](/sites/jive.nl/files/cms/projects/EU.jpg)
 
-<span style="font-size: 11pt"><span style="color: #808080">_This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 730884_</span></span>
+This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 730884
 
-<span style="color: #808080">_More information [here](http://cordis.europa.eu/project/rcn/207184_en.html "Opens in new window: http://cordis.europa.eu/project/rcn/207184_en.html") _</span>
+More information [here](http://cordis.europa.eu/project/rcn/207184_en.html "Opens in new window: http://cordis.europa.eu/project/rcn/207184_en.html")
 
-<span style="font-size: 11pt"> </span>
-
-</div>
-
-</div>
-
-</div>
