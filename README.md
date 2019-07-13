@@ -16,6 +16,7 @@ Single tasks:
 * Write a program or script to create a new map and to add or delete a telescope position 
 
 
+[Collection of Tools](https://graphite.readthedocs.io/en/latest/tools.html)
 
 
 
