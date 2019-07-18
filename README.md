@@ -58,6 +58,39 @@ We’re going to install Docker Compose using PIP instead of the pre-compiled bi
     docker-compose --version
 
 
+# Steps for running
+
+1.  Open Terminal and clone git repo, then run the command
+`git clone https://github.com/IslamAlam/JUMPING-JIVE-Geodetic-Observatory-Wettzell.git`
+`cd JUMPING-JIVE-Geodetic-Observatory-Wettzell`
+
+2\. Now, run the docker compose microserver, run the command
+
+`docker-compose up -d`
+
+or if you prefer logs to be shown, then
+
+`docker-compose up`
+
+3\. Now access Zabbix UI at port 8090(replace this port with your port if you have changed in above compose file).  Open this URL in the browser
+
+Postgres Server
+
+[http://localhost:8080](http://localhost:8080/)
+
+Zabbix
+
+[http://localhost:8090](http://localhost:8090/)
+
+
+Grafana
+
+[http://localhost:3000](http://localhost:3000/)
+
+
+4\. Now login by entering the username & password for default Admin user with credentials.
+
+
 
 
 # JUMPING JIVE
