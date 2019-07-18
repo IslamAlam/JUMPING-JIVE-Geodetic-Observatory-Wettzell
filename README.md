@@ -26,8 +26,8 @@ Single tasks:
 #### Install Docker *Using the convenience script*
 
     # Install Docker using the dokcer script
-    $ curl -fsSL https://get.docker.com -o get-docker.sh
-    $ sudo sh get-docker.sh
+    curl -fsSL https://get.docker.com -o get-docker.sh
+    sudo sh get-docker.sh
 
 
     # Allow your user to access the Docker CLI without needing root access.
