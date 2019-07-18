@@ -5,6 +5,8 @@
 ZABBIX supports maps to show relationships between components monitored or to show locations of components on background images. These images are quite helpful to identify issues. 
 Usually, these maps are static setups showing facilities of companies and so on. Because VLBI sessions include different locations and antennas, it would be valuable to dynamically change the maps. It would be especially interesting for world maps showing the telescopes of the current session and their states. As ZABBIX monitoring sets can completely be changed using the API based on JSON-RPC 2.0, it should be possible to adapt maps or create new maps (see https://www.zabbix.com/documentation/3.2/manual/api). 
 
+
+
 What to do? 
 
 A ZABBIX installation should be used to dynamically adapt and change ZABBIX maps with a world map as background to add and delete telescope positions. 
@@ -17,6 +19,43 @@ Single tasks:
 
 
 [Collection of Tools](https://graphite.readthedocs.io/en/latest/tools.html)
+
+
+## Setup environment:
+
+#### Install Docker *Using the convenience script*
+
+    # Install Docker using the dokcer script
+    $ curl -fsSL https://get.docker.com -o get-docker.sh
+    $ sudo sh get-docker.sh
+
+
+    # Allow your user to access the Docker CLI without needing root access.
+    sudo usermod -aG docker $USER
+
+
+#### Install Docker Compose
+
+We’re going to install Docker Compose using PIP instead of the pre-compiled binary on GitHub because it runs a [little bit faster](/blog/docker-tip-74-curl-vs-pip-for-installing-docker-compose) (both are still Python apps).
+
+
+    # Install Python and PIP.
+    sudo apt-get install -y python python-pip
+
+    # Install Docker Compose into your user's home directory.
+    pip install --user docker-compose
+
+
+
+#### Verify Everything Works
+
+
+    # You should get a bunch of output about your Docker daemon.
+    # If you get a permission denied error, close + open your terminal and try again.
+    docker info
+
+    # You should get back your Docker Compose version.
+    docker-compose --version
 
 
 
