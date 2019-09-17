@@ -56,3 +56,22 @@ services:
     image: monitoringartist/grafana-xxl:latest
     ports:
      - 3000:3000
+  observatory-service:
+    build:   # path is relative to docker-compose.yml localtion
+      context: .
+      dockerfile: ./service.observatory/dev.dockerfile
+    # volumes:
+    #   - ./service.observatory:/usr/src/app # mount point
+    # ports:
+    #   - "0.0.0.0:5000:5000"  # host:container
+    volumes:
+      - ./service.observatory/app:/app
+    ports:
+      - "5000:80"
+    environment:
+      - FLASK_APP=main.py
+      - FLASK_DEBUG=1
+      - 'RUN=flask run --host=0.0.0.0 --port=80'
+    command: flask run --host=0.0.0.0 --port=80
+    # Infinite loop, to keep it alive, for debugging
+    # command: bash -c "while true; do echo 'sleeping...' && sleep 10; done"
