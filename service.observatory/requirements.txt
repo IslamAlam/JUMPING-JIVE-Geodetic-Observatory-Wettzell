@@ -1,0 +1,11 @@
+Flask==1.0.0
+flask-restful==0.3.5
+markdown==2.6.6
+requests==2.10.0
+requests-mock==1.0.0
+pandas
+lxml
+sqlalchemy
+psycopg2-binary
+Flask-SQLAlchemy
+bootstrap
