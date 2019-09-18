@@ -123,6 +123,8 @@ http://www.jive.eu/jumpingjive/lib/exe/fetch.php?media=wiki:jumping_jive_d8.4.pd
 
 [Trying to use Worldmap with JSON location source](https://community.grafana.com/t/trying-to-use-worldmap-with-json-location-source-unsuccessfully/14637)
 
+[home-automation](https://github.com/jakewright/home-automation)
+
 
 # JUMPING JIVE
 [JUMPING JIVE Website](https://jive.eu/jumping-jive)
