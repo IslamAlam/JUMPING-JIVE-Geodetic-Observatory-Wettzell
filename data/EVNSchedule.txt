@@ -1,0 +1,227 @@
+EVN BLOCK SCHEDULE             SESSION 1 2019      Version 2.0    31 January 2019
+======================================================================================================================================================================
+
+---------------------
+| PART 1  3.6/13cm  |
+---------------------
+
+CODE                  EVN   TELESCOPES                                                CORR    TOT    /ST    DAY UT-START    UT-STOP     COMMENTS
+====== ============================================================================== ===== ====== ===== == === ======================= ==============================
+F19SX1 --- Wb1 Ef Mc -- On60 T6 Ur -- Ys Hh Sv Zc Bd Ir -- -- -- --- Wn -- -- -- ---- EVN     2.99  0.23 Eu 052 1200(21/02)-1300(21/02) 3.6/13cm FTP-FT 512 Mbps
+CL19X1 --- Wb1 Ef Mc -- On60 T6 Ur -- Ys Hh Sv Zc Bd Ir -- -- -- --- -- -- -- -- ---- ---     0.00  0.00 Eu 052 1400(21/02)-1800(21/02) 3.6/13cm FS CAL
+GM074A --- Wb1 Ef Mc -- On60 T6 Ur -- Ys Hh Sv Zc Bd -- -- -- -- --- -- -- -- -- ---- EVN   125.79  5.99 Eu 052 2100(21/02)-1000(22/02) -
+                                                                                                    0.00 Au 052 1500(21/02)-0300(22/02) LBA
+                                                                                                    5.99 US 053 0800(22/02)-1900(22/02) VLBA
+GM074B --- Wb1 Ef Mc -- On60 T6 Ur -- Ys Hh Sv Zc Bd -- -- -- -- --- -- -- -- -- ---- EVN   125.79  5.99 Eu 053 2100(22/02)-1000(23/02) -
+                                                                                                    0.00 Au 053 1500(22/02)-0300(23/02) LBA
+                                                                                                    5.99 US 054 0800(23/02)-1900(23/02) VLBA
+GM074C --- Wb1 Ef Mc -- On60 T6 Ur -- Ys Hh Sv Zc Bd -- -- -- -- --- -- -- -- -- ---- EVN   125.79  5.99 Eu 054 2100(23/02)-1000(24/02) -
+                                                                                                    0.00 Au 054 1500(23/02)-0300(24/02) LBA
+                                                                                                    5.99 US 055 0800(24/02)-1900(24/02) VLBA
+EC063A --- Wb1 Ef Mc -- On60 T6 Ur -- Ys Hh Sv Zc Bd Ir -- -- -- --- -- -- -- -- ---- EVN    22.08  1.84 Eu 055 2300(24/02)-0300(25/02) group 2
+ET036C --- --- Ef Mc -- On60 T6 Ur -- Ys Hh Sv Zc Bd -- -- -- -- --- Wn -- -- -- ---- EVN    60.83  5.53 Eu 056 1100(25/02)-1100(26/02) 3.6/13cm 3rd epoch
+N19SX1 --- Wb1 Ef Mc -- On60 T6 Ur -- Ys Hh Sv Zc Bd Ir -- -- -- --- Wn -- -- -- ---- EVN     8.28  0.69 Eu 057 1200(26/02)-1500(26/02) 3.6/13cm NME + FTP-FT 512 Mbps
+EC063B --- Wb1 Ef Mc -- On60 T6 Ur -- Ys Hh Sv Zc Bd Ir -- -- -- --- -- -- -- -- ---- EVN    22.08  1.84 Eu 057 2000(26/02)-0000(27/02) group 1
+EP113C --- Wb1 Ef Mc -- On60 T6 Ur -- Ys -- Sv Zc Bd Ir -- -- -- --- -- -- -- -- ---- EVN    10.12  0.92 Eu 058 0100(27/02)-0300(27/02) 3.6cm 2nd epoch
+
+-----------------
+| PART 2  5 cm  |
+-----------------
+
+N19M1  Jb2 Wb1 Ef Mc Nt On85 T6 -- Tr Ys Hh -- -- -- Ir Sr -- -- --- -- -- -- -- ---- EVN     2.04  0.17 Eu 058 1200(27/02)-1500(27/02) 5cm NME + FTP-FT 128 Mbps
+CL18M1 Jb2 Wb1 Ef Mc Nt On85 T6 -- Tr Ys Hh -- -- -- Ir Sr -- -- --- -- -- -- -- ---- ---     0.00  0.00 Eu 058 1600(27/02)-2000(27/02) 5cm FS CAL
+ED044  Jb2 Wb1 Ef Mc Nt On85 T6 -- Tr Ys Hh -- -- -- Ir Sr -- -- --- -- -- -- -- ---- EVN     6.96  0.58 Eu 059 0300(28/02)-1300(28/02) -
+
+-----------------
+| PART 3  6 cm  |
+-----------------
+
+N19C1  Jb2 Wb1 Ef Mc Nt On85 T6 Ur Tr Ys Hh Sv Zc Bd Ir -- -- -- --- -- -- -- -- ---- EVN    10.35  0.69 Eu 060 1200(01/03)-1500(01/03) 6cm NME + FTP-FT 512 Mbps
+EP115  Jb2 Wb1 Ef Mc Nt On85 T6 Ur Tr Ys Hh Sv Zc Bd Ir -- -- -- --- -- -- -- -- ---- EVN    41.04  2.76 Eu 060 1830(01/03)-0030(02/03) -
+EC067A Jb2 Wb1 Ef Mc Nt On85 T6 Ur Tr Ys Hh Sv Zc Bd Ir -- -- -- --- -- -- -- -- ---- EVN    17.25  1.15 Eu 061 0200(02/03)-0430(02/03) LSR J1835+3259
+EC067B Jb2 Wb1 Ef Mc Nt On85 T6 Ur Tr Ys Hh Sv Zc Bd Ir -- -- -- --- -- -- -- -- ---- EVN    17.25  1.15 Eu 061 0830(02/03)-1100(02/03) LP 349-25
+EB068  Jb2 Wb1 Ef Mc Nt On85 T6 Ur Tr Ys -- Sv Zc Bd Ir -- -- -- MER -- -- -- -- ---- EVN    83.86  5.99 Eu 061 1630(02/03)-0530(03/03) -
+EC067C Jb2 Wb1 Ef Mc Nt On85 T6 Ur Tr Ys Hh Sv Zc Bd Ir -- -- -- --- -- -- -- -- ---- EVN    17.25  1.15 Eu 062 0830(03/03)-1100(03/03) LSPM J0036+1821
+EC067D Jb2 Wb1 Ef Mc Nt On85 T6 Ur Tr Ys Hh Sv Zc Bd Ir -- -- -- --- -- -- -- -- ---- EVN    17.25  1.15 Eu 062 1930(03/03)-2200(03/03) EQ J1122+2550
+EC063C Jb2 Wb1 Ef Mc Nt On85 T6 Ur Tr Ys Hh Sv Zc Bd Ir -- -- -- --- -- -- -- -- ---- EVN    27.60  1.84 Eu 062 2300(03/03)-0300(04/03) group 2
+RSM03  Jb2 Wb1 Ef Mc Nt On85 T6 Ur Tr Ys Hh Sv Zc Bd Ir -- -- -- --- -- -- -- -- ---- EVN    27.60  1.84 Eu 063 0400(04/03)-0800(04/03) -
+CL19C1 Jb2 Wb1 Ef Mc Nt On85 T6 Ur Tr Ys Hh Sv Zc Bd Ir -- -- -- --- -- -- -- -- ---- ---     0.00  0.00 Eu 063 1200(04/03)-1600(04/03) 6cm FS CAL
+GV025  Jb2 Wb1 Ef Mc Nt On85 T6 Ur Tr Ys Hh Sv Zc Bd Ir -- -- -- MER -- -- -- -- ---- EVN   193.55  5.53 Eu 063 2000(04/03)-0800(05/03) -
+                                                                                                   11.06 US 064 0200(05/03)-1400(05/03) VLBA
+EY033B Jb2 Wb1 Ef Mc Nt On85 T6 Ur Tr Ys Hh Sv Zc Bd Ir -- --[Km]--- -- -- -- -- ---- EVN    88.48  5.53 Eu 064 2300(05/03)-1100(06/03) -
+EY033C Jb2 Wb1 Ef Mc Nt On85 T6 Ur Tr Ys Hh Sv Zc Bd Ir -- --[Km]--- -- -- -- -- ---- EVN    88.48  5.53 Eu 065 2300(06/03)-1100(07/03) -
+EC063D Jb2 Wb1 Ef Mc Nt On85 T6 Ur Tr Ys Hh Sv Zc Bd Ir -- -- -- --- -- -- -- -- ---- EVN    27.60  1.84 Eu 066 2030(07/03)-0030(08/03) group 1
+
+-----------------
+| PART 4  18cm  |
+-----------------
+
+N19L1  Jb1 Wb1 Ef Mc -- On85 T6 Ur Tr -- Hh Sv Zc Bd -- Sr -- -- --- -- -- -- -- ---- EVN     8.97  0.69 Eu 067 1200(08/03)-1500(08/03) 18cm NME + FTP-FT 512 Mbps
+ER047A Jb1 Wb1 Ef Mc -- On85 T6 Ur Tr -- Hh Sv Zc Bd -- Sr Ar -- MER -- -- -- --[Ro70]EVN    81.33  5.53 Eu 067 1800(08/03)-0600(09/03) 1st epoch
+                                                                                                    3.92 Ro 067 2225(08/03)-0240(09/03) Ro70
+EP106F Jb1 Wb1 Ef Mc -- On85 T6 Ur Tr -- Hh Sv Zc Bd -- Sr -- -- --- -- -- -- -- ---- EVN    47.97  3.69 Eu 068 1030(09/03)-1830(09/03) 3rd epoch
+CL19L1 Jb1 Wb1 Ef Mc -- On85 T6 Ur Tr -- Hh Sv Zc Bd -- Sr -- -- --- -- -- -- -- ---- ---     0.00  0.00 Eu 068 2000(09/03)-0000(10/03) 18cm FS CAL
+EB070  Jb1 Wb1 Ef Mc -- On85 T6 Ur Tr -- Hh Sv Zc Bd -- Sr -- -- --- -- -- -- -- ---- EVN    29.95  2.30 Eu 069 0200(10/03)-0700(10/03) -
+EP106G Jb1 Wb1 Ef Mc -- On85 T6 Ur Tr -- Hh Sv Zc Bd -- Sr -- -- --- -- -- -- -- ---- EVN    47.97  3.69 Eu 069 1030(10/03)-1830(10/03) 3rd epoch
+EL060  Jb1 Wb1 Ef Mc -- On85 -- -- Tr -- Hh Sv Zc Bd -- Sr -- -- --- -- -- -- -- ---- EVN    15.18  1.38 Eu 070 0500(11/03)-0800(11/03) -
+
+-------------------
+| PART 5  1.3cm   |
+-------------------
+
+F19K1  Jb2 --- Ef Mc Nt On60 T6 Ur Tr Ys Hh Sv Zc Bd -- Sr -- -- --- Mh Kt Ky Ku ---- EVN     4.14  0.23 Eu 070 1200(11/03)-1300(11/03) 1.3cm FTP-FT 1024 Mbps
+EB072  Jb2 --- Ef Mc Nt On60 T6 Ur Tr Ys Hh Sv Zc Bd -- Sr -- -- --- Mh Kt Ky Ku ---- EVN    29.52  3.69 Eu 070 1400(11/03)-2200(11/03) -
+EP113D Jb2 --- Ef Mc Nt On60 T6 Ur Tr Ys -- Sv Zc Bd -- Sr -- -- --- Mh Kt Ky Ku ---- EVN    23.46  1.38 Eu 070 2300(11/03)-0200(12/03) 1.3cm 2nd epoch
+CL19K1 Jb2 --- Ef Mc Nt On60 T6 Ur Tr Ys Hh Sv Zc Bd -- Sr -- -- --- Mh -- -- -- ---- ---     0.00  0.00 Eu 071 0700(12/03)-1100(12/03) 1.3cm FS CAL
+N19K1  Jb2 --- Ef Mc Nt On60 T6 Ur Tr Ys Hh Sv Zc Bd -- Sr -- -- --- Mh Kt Ky Ku ---- EVN    24.84  1.38 Eu 071 1200(12/03)-1500(12/03) 1.3cm NME + FTP-FT 1024 Mbps
+GG085A Jb2 --- Ef Mc Nt On60 -- Ur Tr Ys Hh Sv Zc Bd -- Sr -- -- --- Mh -- -- --[Ro70]Bonn    6.91  0.46 Eu 071 1700(12/03)-1900(12/03) +RA 1.3cm OJ287
+GG085B Jb2 --- Ef Mc Nt On60 -- Ur Tr Ys Hh Sv Zc Bd -- Sr -- -- --- Mh -- -- --[Ro70]Bonn    6.91  0.46 Eu 072 1700(13/03)-1900(13/03) +RA 1.3cm OJ287
+GG085C Jb2 --- Ef Mc Nt On60 -- Ur Tr Ys Hh Sv Zc Bd -- Sr -- -- --- Mh -- -- --[Ro70]Bonn   12.90  0.46 Eu 073 1600(14/03)-1800(14/03) +RA 1.3cm OJ287 +VLBA+Y27
+
+--------------------------------
+| CODES USED IN SCHEDULE TABLE |
+--------------------------------
+
+DISKS (TB) = EVN MK5A disk allocation, in TBytes:  TOT = total,  /ST = per station
+
+DAY    = Project start day-of-year                  CORR = Correlator:  EVN  - SFXC software correlator at JIVE 
+Eu     = Time allocation in "Europe" (EVN + ...)                        eEVN - realtime correlation with SFXC at JIVE
+US     = Time allocation in USA (VLBA + ...)                            Bonn - MPIfR/BKG DiFX software correlator in Bonn
+Ar     = Time allocation at Arecibo                                     VLBA - DiFX software correlator in Socorro
+GB     = Time allocation at GBT                                         Swin - Swinburne DiFX software correlator
+Ro     = Time allocation at Robledo                                     ASC  - Astro Space Centre correlator, Moscow
+
+
+Project Code Suffix: A,B,.. etc indicates scheduling sequence for multi-segment projects or
+                     multiple scheduling attempts.
+
+TELESCOPE CODES:
+
+Eb = Effelsberg  Wb = Westerbork  Jb1  = Jodrell(Lovell)  Jb2  = Jodrell(Mk2)     Mc = Medicina      Km = Kunming
+Nt = Noto        Tr = Torun       On60 = Onsala(20m=60ft) On85 = Onsala(25m=85ft) Ur = Urumqi        Ir = Irbene
+Sh = Sheshan     Ys = Yebes-40m   Hh   = Hartebeesthoek   Mh   = Metsahovi        Ro = Robledo       Wn = Wettzell 13.2m
+Ar = Arecibo     Cm = Cambridge   MER  = e-MERLIN         Ny   = Ny Alesund       Wz = Wettzell
+Ap = Algonquin   Mr = Matera      Go   = Goldstone-70m    DSS  = DSN antenna      Sm = Simiez
+Sv = Svetloe     Bd = Badary      Zc   = Zelenchukskaya   Vm   = Mizusawa         Vs = Ishigaki-jima
+Ym = Yamaguchi   Wb1 = Westerbork single-antenna          WbX  = see project schedule for WB telescope subarray
+vlba = VLBA      RA = RadioAstron antenna                 Sr   = Sardinia         T6 = Tianma (65m)
+
+
+Telescope code in () = participation is not yet confirmed or is optional
+Telescope code in {} = participation only with subset of frequencies (e.g. WSRT X-band only of S/X)
+Telescope code in [] = time allocated for only part of the time
+
+
+-----------------------
+| PROJECT INFORMATION |
+-----------------------
+
+CODE   INVESTIGATOR PROJECT            Mb/s   T/S POL COMMENTS                    CONTACT EMAIL ADDRESS
+====== ============ ================== ==== ===== === =========================== ===================================
+F19SX1 JIVE         3.6cm FTP-FT        512  0.23 L+R 3.6/13cm FTP-FT             campbell@jive.eu
+CL19X1 Gunn         3.6cm FS CAL       ----  0.00 L+R 3.6/13cm Amp. Calibration   alastair.gunn@manchester.ac.uk
+GM074A Motta        Sco X-1            1024  5.99 L+R -                           sara.motta@physics.ox.ac.uk
+GM074B Motta        Sco X-1            1024  5.99 L+R -                           sara.motta@physics.ox.ac.uk
+GM074C Motta        Sco X-1            1024  5.99 L+R -                           sara.motta@physics.ox.ac.uk
+EC063A Cheng        FR0 Galaxies       1024  1.84 L+R group 2                     xcheng@shao.ac.cn
+ET036C Titov        VLBI Astrometry     512  5.53 R   3.6/13cm 3rd epoch          oleg.titov@ga.gov.au 
+N19SX1 JIVE         3.6cm NME           512  0.69 L+R 3.6/13cm NME + FTP-FT       campbell@jive.eu
+EC063B Cheng        FR0 Galaxies       1024  1.84 L+R group 1                     xcheng@shao.ac.cn 
+EP113C Panessa      NGC 4151           1024  0.92 L+R 3.6cm 2nd epoch             francesca.panessa@iaps.inaf.it
+N19M1  JIVE         5cm NME             128  0.17 L+R 1.3cm NME + FTP-FT          campbell@jive.eu
+CL19M1 Gunn         5cm FS CAL         ----  0.00 L+R 5cm Amplitude Calibration   alastair.gunn@manchester.ac.uk 
+ED044  Durjasz      Methanol Masers     128  0.58 L+R -                           md@astro.umk.pl
+N19C1  JIVE         6cm NME             512  0.69 L+R 6cm NME + FTP-FT            campbell@jive.eu 
+EP115  Perger       PMN J0909+0354     1024  2.76 L+R -                           pergertina@gmail.com
+EC067A C. Oliver    Ultracool Dwarfs   1024  1.15 L+R LSR J1835+3259              j.bautista.climent@uv.es
+EC067B C. Oliver    Ultracool Dwarfs   1024  1.15 L+R LP 349-25                   j.bautista.climent@uv.es
+EB068  Baan         NGC 3079           1024  5.99 L+R -                           baan@astron.nl
+EC067C C. Oliver    Ultracool Dwarfs   1024  1.15 L+R LSPM J0036+1821             j.bautista.climent@uv.es
+EC067D C. Oliver    Ultracool Dwarfs   1024  1.15 L+R EQ J1122+2550               j.bautista.climent@uv.es
+EC063C Cheng        FR0 Galaxies       1024  1.84 L+R group 2                     xcheng@shao.ac.cn
+RSM03  Marcote      HD 190864          1024  1.84 L+R short observation           marcote@jive.eu
+CL19C1 Gunn         6cm FS CAL         ----  0.00 L+R 6cm Amplitude Calibration   alastair.gunn@manchester.ac.uk  
+GV025  Varenius     IC 860             1024  5.53 L+R Non-DBBC stations at 2 Gbps eskil.varenius@manchester.ac.uk
+EY033B Yang         AT2018cow          1024  5.53 L+R -                           jun.yang@chalmers.se
+EY033C Yang         AT2018cow          1024  5.53 L+R -                           jun.yang@chalmers.se
+EC063D Cheng        FR0 Galaxies       1024  1.84 L+R group 1                     xcheng@shao.ac.cn
+N19L1  JIVE         18cm NME            512  0.69 L+R 18cm NME + FTP-FT           campbell@jive.eu
+ER047A Radcliffe    EVN-COSMOS         1024  5.53 L+R 1st epoch                   j.f.radcliffe@rug.nl
+EP106F Perez-Torres Mrk 1018           1024  3.69 L+R 3rd epoch                   torres@iaa.es
+CL19L1 Gunn         18cm FS CAL        ----  0.00 L+R 18cm Amplitude Calibration  alastair.gunn@manchester.ac.uk 
+EB070  Boven        Ross 867           1024  2.30 L+R -                           boven@jive.eu
+EP106G Perez-Torres Mrk 1018           1024  3.69 L+R 3rd epoch                   torres@iaa.es
+EL060  Liu          RRATs              1024  1.38 L+R -                           liulei@shao.ac.cn
+F19K1  JIVE         1.3cm FTP-FT        512  0.23 L+R 1.3cm FTP-FT                campbell@jive.eu
+EB072  Burns        S255               1024  3.69 L+R -                           ross.burns@nao.ac.jp
+EP113D Panessa      NGC 4151           1024  1.38 L+R 1.3cm 2nd epoch             francesca.panessa@iaps.inaf.it 
+CL19K1 Gunn         1.3cm FS CAL       ----  0.00 L+R 1.3cm Amplitude Calibration alastair.gunn@manchester.ac.uk 
+N19K1  JIVE         1.3cm NME          1024  1.38 L+R 1.3cm NME + FTP-FT          campbell@jive.eu 
+GG085A Gomez        AGN Jets            512  0.46 L+R -                           jlgomez@iaa.es
+GG085B Gomez        AGN Jets            512  0.46 L+R -                           jlgomez@iaa.es
+GG085C Gomez        AGN Jets            512  0.46 L+R K/Q/U VLBA/Y27              jlgomez@iaa.es
+
+---------------------------
+| NOTES FOR INVESTIGATORS |
+---------------------------
+                                                                   ******************
+DEADLINE for depositing schedules to JIVE is;                      *   31 Jan 2019  *
+                                                                   ******************
+
+===>   Observing schedules for projects together with RadioAstron will be made by the Mission.
+       Contact the RadioAstron scheduling team at ra_vex@asc.rssi.ru)
+
+Investigators allocated e-VLBI observtions within the session should contact Zsolt
+Paragi (zparagi@jive.eu). JIVE staff will make the e-VLBI observing schedule based on 
+information supplied in the proposal and any further input you provide.
+
+===>   Please check your allocation of time, stations, disks and correlator,
+       and notify the EVN Scheduler, Alastair Gunn, immediately if there are problems:
+          ==>  alastair.gunn@manchester.ac.uk
+
+
+***************************************************************************************
+*                   Use of MK5 disk recording                                         *
+*                   -------------------------                                         *
+*  Disk recording will be used for all projects at all observatories.                 *
+*  The disk allocation (in T-Bytes) for EVN telescopes is calculated from the         *
+*  project bit-rate (see PROJECT INFORMATION) assuming that data will be recorded     *
+*  for no more than 100% of the time allocated on the schedule. Make sure that your   *
+*  schedule does not require more than the disk allocation given on the schedule.     *
+*                                                                                     *
+*  Users should consult JIVE if they need assistance in making their schedules.       *
+***************************************************************************************
+
+==>  Inexperienced users should contact B. Campbell at JIVE as SOON AS POSSIBLE
+     for assistance in making their schedules.          ==>  campbell@jive.eu
+
+***************************************************************************************
+*         Restriction on source changes with JB Lovell Telescope (JB1)                *
+*         ------------------------------------------------------------                *
+*  For engineering reasons the number of source changes permitted at telescope JB1 is *
+*  limited to 12 per hour. For source phase-referencing experiments this restricts    *
+*  target-reference source cycle times to 10 mins.                                    *
+***************************************************************************************
+
+
+----------------------------
+| SCHEDULE VERSION UPDATES |
+----------------------------
+
+Version 1.0 First Public Version
+Version 2.0 Confirmed participation of Hh in GG085C
+            Confirmed Ro70 availability in ER047A
+            Removed Nt from S/X band experiments (unavailable)
+            Swapped day of observation for ET036C and EC063A
+
+Notes: Nt not available at L-band this session
+       Nt not available at S/X-band this session
+       Ir not available at L-band this session
+
+
+The current version of the EVN Block Schedule is kept at:
+                                  http://www.evlbi.org/scheduling/EVNschedule.txt
+A more compact PDF version with identical contents is kept at:
+                                  http://www.evlbi.org/scheduling/EVNschedule.pdf
+
+

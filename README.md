@@ -87,10 +87,41 @@ Grafana
 
 [http://localhost:3000](http://localhost:3000/)
 
+Flask
+
+[http://localhost:5000](http://localhost:5000/)
+
 
 4\. Now login by entering the username & password for default Admin user with credentials.
 
 
+
+
+## Reference Links
+
+Observing Program
+Master Files
+https://ivscc.gsfc.nasa.gov/program/master.html
+
+
+Station location
+https://ivscc.gsfc.nasa.gov/stations/config/ns/
+
+
+List of all station session
+
+https://ivscc.gsfc.nasa.gov/sessions/stations/
+
+
+http://www.aoc.nrao.edu/software/sched/catalogs/stations_RDBE.dat
+
+
+http://www.aoc.nrao.edu/software/sched/catalogs/stations.dat
+
+Evaluation of software packages (for system monitoring) 
+http://www.jive.eu/jumpingjive/lib/exe/fetch.php?media=wiki:jumping_jive_d8.4.pdf
+
+[Trying to use Worldmap with JSON location source](https://community.grafana.com/t/trying-to-use-worldmap-with-json-location-source-unsuccessfully/14637)
 
 
 # JUMPING JIVE
@@ -114,4 +145,3 @@ JIVE <link>is leading the project from its base in Dwingeloo (the Netherlands). 
 This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 730884
 
 More information [here](http://cordis.europa.eu/project/rcn/207184_en.html "Opens in new window: http://cordis.europa.eu/project/rcn/207184_en.html")
-
