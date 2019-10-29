@@ -26,3 +26,4 @@ json_str = df_today.to_json(orient='records')
 from sqlalchemy import create_engine
 engine = create_engine('postgresql://zabbix:zabbix@localhost:8080/postgres-server')
 df.to_sql('table_name', engine)
+SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'app.db')

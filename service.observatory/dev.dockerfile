@@ -51,7 +51,6 @@ FROM tiangolo/uwsgi-nginx-flask:python3.7
 ENV STATIC_INDEX 1
 # ENV STATIC_INDEX 0
 
-COPY ./service.observatory/app /app
 
 COPY ./service.observatory/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt

@@ -56,6 +56,8 @@ services:
     image: monitoringartist/grafana-xxl:latest
     ports:
      - 3000:3000
+    volumes:
+    - ./service.node-red/app:/app
   observatory-service:
     build:   # path is relative to docker-compose.yml localtion
       context: .
@@ -75,3 +77,15 @@ services:
     command: flask run --host=0.0.0.0 --port=80
     # Infinite loop, to keep it alive, for debugging
     # command: bash -c "while true; do echo 'sleeping...' && sleep 10; done"
+
+  node-red:
+    build:   # path is relative to docker-compose.yml localtion
+      context: .
+      dockerfile: ./service.node-red/dev.dockerfile
+    volumes:
+      - "./service.node-red/data:/data"
+      - ./service.node-red/app:/app
+    #user: "0"
+
+    ports:
+      - "5001:1880"
