@@ -1,2 +1,2 @@
 ,Name,Code,start_date,start_time,Dur,DOY,Stations_Codes,DB Code,Ops Center,Correlator,Analysis
-161,IVS-R1917,R1917,2019-10-21,17:00:00,24:00,294.0,"['Ag', 'Ft', 'Ht', 'Is', 'Kk', 'Kv', 'Ma', 'Ny', 'Wn', 'Wz', 'Yg']",XA,NASA,BONN,NASA
+169,IVS-R4919,R4919,2019-11-07,18:30:00,24:00,311.0,"['Ft', 'Ht', 'Is', 'Kk', 'Ma', 'Ny', 'Wn', 'Wz', 'Yg']",XE,USNO,WASH,USNO

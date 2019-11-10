@@ -1,20 +1,34 @@
 version: '3.1'
 services:
+
   postgres-server:    # The Postgres Database Service
     image: postgres:latest
+    container_name: postgres-server
     restart: always
+    networks:
+      - db_nw
     environment:   # Username, password and database name variables
       POSTGRES_USER: zabbix
       POSTGRES_PASSWORD: zabbix
       POSTGRES_DB: zabbix
       PG_DATA: /var/lib/postgresql/data/pgdata #data storage
+    ports:
+      - 5432:5432
+    volumes:
+      - ./db_data:/var/lib/postgresql/data
+
+
+
   zabbix-server:     # The main Zabbix Server Software Service
     image: zabbix/zabbix-server-pgsql:ubuntu-latest
+    container_name: zabbix-server
     restart: always
+    networks:
+      - db_nw
     environment:   # The Postgres database value variable
       POSTGRES_USER: zabbix
       POSTGRES_PASSWORD: zabbix
-      POSTGRES_DB: zabbixNew
+      POSTGRES_DB: zabbix
       ZBX_HISTORYSTORAGETYPES: log,text #Zabbix configuration variables
       ZBX_DEBUGLEVEL: 1
       ZBX_HOUSEKEEPINGFREQUENCY: 1
@@ -23,14 +37,18 @@ services:
       - postgres-server
     volumes:  # Volumes for scripts and related files you can add
       - /usr/lib/zabbix/alertscripts:/usr/lib/zabbix/alertscripts
-  
+
+
   zabbix-web:    # The main Zabbix web UI or interface 
     image: zabbix/zabbix-web-nginx-pgsql:ubuntu-latest
+    container_name: zabbix-web
     restart: always
+    networks:
+      - db_nw    
     environment:  # Postgre database variables
       POSTGRES_USER: zabbix
       POSTGRES_PASSWORD: zabbix
-      POSTGRES_DB: zabbixNew
+      POSTGRES_DB: zabbix
       ZBX_SERVER_HOST: zabbix-server  # Zabbix related and Php variables
       ZBX_POSTMAXSIZE: 64M
       PHP_TZ: "Asia/Kolkata"  
@@ -40,52 +58,90 @@ services:
       - zabbix-server
     ports:    # Port where Zabbix UI is available
       - 8090:80
+
   zabbix-agent:   # Zabbix agent service that tracks usage and send to zabbix server
     image: zabbix/zabbix-agent:latest
+    container_name: zabbix-agent
+    networks:
+      - db_nw    
     privileged: true   #access mode for allowing resource access
-    network_mode: "host"
     restart: unless-stopped
     environment:
       - ZBX_SERVER_HOST=127.0.0.1 #the IP/Dns of Zabbix server
+
   adminer:  #Optional for accessing databases
     image: adminer
+    container_name: db-adminer
     restart: always
+    networks:
+      - db_nw    
     ports:
       - 8080:8080
+
+
   grafana-xxl:  #optional more functional and creative UI 
     image: monitoringartist/grafana-xxl:latest
+    container_name: grafana
+    restart: always
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=P@ssw0rd
+    networks:
+      - db_nw
     ports:
      - 3000:3000
     volumes:
     - ./service.node-red/app:/app
-  observatory-service:
-    build:   # path is relative to docker-compose.yml localtion
-      context: .
-      dockerfile: ./service.observatory/dev.dockerfile
-    # volumes:
-    #   - ./service.observatory:/usr/src/app # mount point
-    # ports:
-    #   - "0.0.0.0:5000:5000"  # host:container
-    volumes:
-      - ./service.observatory/app:/app
-    ports:
-      - "5000:80"
-    environment:
-      - FLASK_APP=main.py
-      - FLASK_DEBUG=1
-      - 'RUN=flask run --host=0.0.0.0 --port=80'
-    command: flask run --host=0.0.0.0 --port=80
-    # Infinite loop, to keep it alive, for debugging
-    # command: bash -c "while true; do echo 'sleeping...' && sleep 10; done"
+    - ./service.grafana/grafana.ini:/etc/grafana/grafana.ini:ro
+    - ./service.grafana/plugin/grafana-zabbix:/var/lib/grafana/plugins/grafana-zabbix
+    - ./service.grafana/plugin/grafana-worldmap-panel:/var/lib/grafana/plugins/grafana-worldmap-panel
+    #- ./service.grafana/plugin/grafana-worldmap-panel:/grafana-plugins/grafana-worldmap-panel
+    #- ./service.grafana/plugin/grafana-zabbix:/grafana-plugins/grafana-zabbix
+    # - ./service.grafana/etc:/etc
+
+#  observatory-service:
+#   build:   # path is relative to docker-compose.yml localtion
+#     context: .
+#     dockerfile: ./service.observatory/dev.dockerfile
+#   # volumes:
+#   #   - ./service.observatory:/usr/src/app # mount point
+#   # ports:
+#   #   - "0.0.0.0:5000:5000"  # host:container
+#   volumes:
+#     - ./service.observatory/app:/app
+#   ports:
+#     - "5000:80"
+#   environment:
+#     - FLASK_APP=main.py
+#     - FLASK_DEBUG=1
+#     - 'RUN=flask run --host=0.0.0.0 --port=80'
+#   command: flask run --host=0.0.0.0 --port=80
+#   # Infinite loop, to keep it alive, for debugging
+#   # command: bash -c "while true; do echo 'sleeping...' && sleep 10; done"
+#   network_mode: host 
+
 
   node-red:
     build:   # path is relative to docker-compose.yml localtion
       context: .
       dockerfile: ./service.node-red/dev.dockerfile
+    container_name: node-red
     volumes:
       - "./service.node-red/data:/data"
       - ./service.node-red/app:/app
+    networks:
+      - db_nw      
     #user: "0"
-
     ports:
       - "5001:1880"
+#    networks:
+#      - 'back'
+
+
+
+
+networks:
+  front:
+  back:
+  db_nw:
+    driver: bridge

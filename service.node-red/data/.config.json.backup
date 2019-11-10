@@ -534,6 +534,26 @@
      "file": "/usr/src/node-red/node_modules/node-red-node-twitter/27-twitter.js"
     }
    }
+  },
+  "node-red-contrib-web-worldmap": {
+   "name": "node-red-contrib-web-worldmap",
+   "version": "2.1.4",
+   "local": false,
+   "nodes": {
+    "worldmap": {
+     "name": "worldmap",
+     "types": [
+      "worldmap",
+      "ui_worldmap",
+      "worldmap in",
+      "worldmap-tracks"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-web-worldmap",
+     "file": "/data/node_modules/node-red-contrib-web-worldmap/worldmap.js"
+    }
+   }
   }
  },
  "_credentialSecret": "8b75b76065a2e3f035734bf5a701c930915eb2df4dd67df5b14869da49a1d823",
@@ -541,10 +561,12 @@
   "_": {
    "editor": {
     "view": {
-     "view-grid-size": 20,
+     "view-grid-size": "20",
      "view-node-status": true,
      "view-node-show-label": true,
-     "view-show-tips": true
+     "view-show-tips": true,
+     "view-snap-grid": true,
+     "view-show-grid": true
     }
    }
   }

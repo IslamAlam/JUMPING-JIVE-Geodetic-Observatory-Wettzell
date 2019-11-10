@@ -1,0 +1,3 @@
+[submodule "service.node-red/app/zabbixLatLongExtractor"]
+	path = service.node-red/app/zabbixLatLongExtractor
+	url = https://github.com/jameskirsop/zabbixLatLongExtractor.git
